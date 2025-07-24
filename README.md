@@ -12,7 +12,7 @@ Validation (Method Name) (Trigger Time) { field (To Validate Field Name) (Trigge
 
 **(Trigger time)** : For validation the only Trigger time available is on save
 
-**(To Validate Field Name)** : Field name which needs to be validated (in our case Age field)
+**(To Validate Field Name)** : Field name which needs to be validated (in our case gender and dob field)
 
 **(Trigger Operation)**  : Validation can be triggered by using different operations on Business Object ex: Create, Update, Delete. When any of these Operation triggers then Validation triggers.
 
