@@ -6,27 +6,21 @@ Validation of data in RAP Applications
 
 <h3>Key Features</h3>
 <ul>
-  <li>Purpose: To check the consistency of business object instances when a save operation is triggered. </li>
-  <li>Timing: Automatically triggered during the save operation if the trigger condition (create, update, delete) is met.</li>
-  <li>Implementation: Must be implemented in the RAP handler method for VALIDATE within the local ABAP behavior pool. </li>
-  <li>Key Feature: Can reject inconsistent data and return messages to the user.</li>
-    <li>Benefit: Ensures data integrity before persisting data to the database.</li>
+  <li><b>Purpose:</b> To check the consistency of business object instances when a save operation is triggered. </li>
+  <li><b>Timing:</b> Automatically triggered during the save operation if the trigger condition (create, update, delete) is met.</li>
+  <li><b>Implementation:</b> Must be implemented in the RAP handler method for VALIDATE within the local ABAP behavior pool. </li>
+  <li><b>Key Feature:</b> Can reject inconsistent data and return messages to the user.</li>
+    <li><b>Benefit:</b> Ensures data integrity before persisting data to the database.</li>
 </ul>  
 
-
- 
-
-
-
-
-
+<br/>
 Add below line of code in <b/>Behaviour Definition<b/>.
 
-Validation (Method Name) (Trigger Time) { field (To Validate Field Name) (Trigger Operation)  }
+**SYNTAX:** Validation (Method Name) (Trigger Time) { field (To Validate Field Name) (Trigger Operation)  }
 
-**(Method Name)** : Name of method which will be created and have validation logic and Error handling logic.
+**(Method Name):** Name of method which will be created and have validation logic and Error handling logic.
 
-**(Trigger time)** : For validation the only Trigger time available is on save
+**(Trigger time):** For validation the only Trigger time available is on save
 
 **(To Validate Field Name)** : Field name which needs to be validated (in our case gender and dob field)
 
