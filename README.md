@@ -1,8 +1,26 @@
 # VALIDATIONS
-Validation of data in RAP Applications
+Validation of data in RAP Applications. There are 2 types of validation we can implement.
+<ul>
+  <li><b> PRECHECK </b></li>
+   <li><b> On SAVE </b></li>
+</ul>
 
 
-# Validation ON SAVE
+<h2>PRECHECK</h2>
+<h3>Key Features</h3>
+<ul>
+<li><b>Purpose:</b> To validate data before it's even considered for saving, preventing invalid data from entering the transactional buffer. </li>
+<li><b>Timing:</b>
+Triggered immediately when a user modifies data, allowing for real-time feedback and error messages on the UI. </li>
+  
+Implementation:
+Defined in behavior definitions and implemented in behavior implementation classes, often using the pre-check annotation for create or update operations. 
+Key Feature:
+Can check the value of one control against another on the UI, providing immediate feedback. 
+Benefit:
+Reduces the risk of errors later in the process, improves user experience by providing early feedback, and prevents saving invalid data into draft tables when using draft capabilities. 
+
+<H2>Validation ON SAVE</H2>
 
 <h3>Key Features</h3>
 <ul>
