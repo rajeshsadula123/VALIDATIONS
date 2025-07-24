@@ -19,6 +19,8 @@ Validation of data in RAP Applications. There are 2 types of validation we can i
 
 <br/>
 Add below line of code in <b/>Behaviour Definition<b/>.
+<br/>
+
 
   <br/>
 <img width="523" height="217" alt="image" src="https://github.com/user-attachments/assets/816ed51b-bdac-4e17-b2c1-6f5890401171" />
@@ -26,8 +28,10 @@ Add below line of code in <b/>Behaviour Definition<b/>.
   Implement Precheck method
 <img width="856" height="963" alt="image" src="https://github.com/user-attachments/assets/31b79758-9045-4473-b9b3-4af5bc46873b" />
 
+<img width="947" height="605" alt="image" src="https://github.com/user-attachments/assets/73c55072-9bec-4989-a6ef-1c82e59483de" />
 
-<H2>Validation ON SAVE</H2>
+
+#Validation ON SAVE
 
 <h3>Key Features</h3>
 <ul>
