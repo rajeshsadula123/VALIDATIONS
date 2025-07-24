@@ -6,7 +6,7 @@ Validation of data in RAP Applications
 
 Add below line of code in <b/>Behaviour Definition<b/>.
 
-Validation <Method Name> <Trigger Time> { field <To Validate Field Name> <Trigger Operation>  }
+Validation (Method Name) (Trigger Time) { field <To Validate Field Name> <Trigger Operation>  }
 
 **<Method Name>** : Name of method which will be created and have validation logic and Error handling logic.
 
