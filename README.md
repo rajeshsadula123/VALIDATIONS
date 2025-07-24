@@ -5,7 +5,6 @@ Validation of data in RAP Applications. There are 2 types of validation we can i
    <li><b> On SAVE </b></li>
 </ul>
 
-
 <h2>PRECHECK</h2>
 <h3>Key Features</h3>
 <ul>
