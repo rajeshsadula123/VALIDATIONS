@@ -5,7 +5,15 @@ Validation of data in RAP Applications
 # Validation ON SAVE
 
 *Key Features*
-Purpose: To check the consistency of business object instances when a save operation is triggered. 
+<h2>Key Features</h2>
+
+<ul>
+  <li>Purpose: To check the consistency of business object instances when a save operation is triggered. </li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+
 Timing: Automatically triggered during the save operation if the trigger condition (create, update, delete) is met. 
 Implementation: Must be implemented in the RAP handler method for VALIDATE within the local ABAP behavior pool. 
 Key Feature: Can reject inconsistent data and return messages to the user. 
