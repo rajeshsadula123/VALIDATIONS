@@ -17,6 +17,16 @@ Validation of data in RAP Applications. There are 2 types of validation we can i
 
 <li><b>Benefit:</b> Reduces the risk of errors later in the process, improves user experience by providing early feedback, and prevents saving invalid data into draft tables when using draft capabilities. </li>
 
+<br/>
+Add below line of code in <b/>Behaviour Definition<b/>.
+
+  <br/>
+<img width="523" height="217" alt="image" src="https://github.com/user-attachments/assets/816ed51b-bdac-4e17-b2c1-6f5890401171" />
+  <br/><br/>
+  Implement Precheck method
+<img width="856" height="963" alt="image" src="https://github.com/user-attachments/assets/31b79758-9045-4473-b9b3-4af5bc46873b" />
+
+
 <H2>Validation ON SAVE</H2>
 
 <h3>Key Features</h3>
