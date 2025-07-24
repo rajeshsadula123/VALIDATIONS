@@ -18,4 +18,6 @@ Validation (Method Name) (Trigger Time) { field (To Validate Field Name) (Trigge
 
 <img width="648" height="366" alt="image" src="https://github.com/user-attachments/assets/d855fdf2-9ceb-4c0d-abe6-59b9f250e0c2" />
 
-And add a method in the 
+<img width="663" height="225" alt="image" src="https://github.com/user-attachments/assets/bd68e6d2-a4fb-456f-b8cb-5f823d7999ce" />
+
+<img width="773" height="281" alt="image" src="https://github.com/user-attachments/assets/cc2a7963-e05a-4b55-85ff-957b088d5a2d" />
