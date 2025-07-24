@@ -4,6 +4,14 @@ Validation of data in RAP Applications
 
 # Validation ON SAVE
 
+*Key Features*
+Purpose: To check the consistency of business object instances when a save operation is triggered. 
+Timing: Automatically triggered during the save operation if the trigger condition (create, update, delete) is met. 
+Implementation: Must be implemented in the RAP handler method for VALIDATE within the local ABAP behavior pool. 
+Key Feature: Can reject inconsistent data and return messages to the user. 
+Benefit: Ensures data integrity before persisting data to the database. 
+
+
 Add below line of code in <b/>Behaviour Definition<b/>.
 
 Validation (Method Name) (Trigger Time) { field (To Validate Field Name) (Trigger Operation)  }
@@ -22,3 +30,7 @@ Validation (Method Name) (Trigger Time) { field (To Validate Field Name) (Trigge
 <br/><br/>
 <img width="773" height="281" alt="image" src="https://github.com/user-attachments/assets/cc2a7963-e05a-4b55-85ff-957b088d5a2d" />
 <br/><br/>
+
+Now we can see the validations are working as requiired.
+
+<img width="950" height="612" alt="image" src="https://github.com/user-attachments/assets/95cfc5f1-8bda-4f89-a9de-8392d2f24c62" />
